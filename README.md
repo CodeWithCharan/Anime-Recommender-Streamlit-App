@@ -25,3 +25,23 @@ This dataset is taken from : https://www.kaggle.com/CooperUnion/anime-recommenda
 `Thanks to myanimelist.net API for providing anime data and user ratings.`
 
 This data set contains information on user preference data from 73,516 users on 12,294 anime. Each user is able to add anime to their completed list and give it a rating and this data set is a compilation of those ratings.
+
+## Installation
+
+1. Clone the repository:
+
+   ```
+   git clone https://github.com/CodeWithCharan/Anime-Recommender-Streamlit-App.git
+   ```
+2. Install the required dependencies:
+
+    ```
+    pip install -r requirements.txt
+    ```
+3. Run the Streamlit app:
+    ```
+    streamlit run app.py
+    ```
+
+## Usage
+After running the Streamlit app it will open your browser and will go to `http://localhost:####` to use the app. Now, Enter your favorite anime in the search box to get personalized recommendations.

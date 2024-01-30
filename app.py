@@ -5,16 +5,16 @@ import pandas as pd
 import joblib
 
 # load anime_dict file
-# animes_dict = pickle.load(open('pickle_models/animes_dict.pkl','rb'))
+# animes_dict = pickle.load(open('models/animes_dict.pkl','rb'))
 animes_dict = joblib.load('models/animes_dict.joblib')
 
 anime_df = pd.DataFrame(animes_dict) # we have converted it into a pandas dataframe
 
 # load both tfv and sig files
-# tfv = pickle.load(open('pickle_models/tfidf_vectorizer.pkl', 'rb'))
+# tfv = pickle.load(open('models/tfidf_vectorizer.pkl', 'rb'))
 tfv = joblib.load('models/tfidf_vectorizer.joblib')
 
-# sig = pickle.load(open('pickle_models/sigmoid_kernel.pkl', 'rb'))
+# sig = pickle.load(open('models/sigmoid_kernel.pkl', 'rb'))
 sig = joblib.load('models/sigmoid_kernel.joblib')
 
 # set recommendation indices
