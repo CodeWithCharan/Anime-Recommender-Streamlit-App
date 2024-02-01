@@ -3,7 +3,7 @@
 In this project, I've built an anime recommendation system to individual preferences. Just type your favorite anime in the search box and it will give you a list of anime recommendations based on your preferences like type (TV, OVA, etc), genre (Fantasy, Action, etc) and other features.
 
 ## Video Presentation
-<video src="ARS-Video-Presentation.mp4" controls title="Title"></video>
+https://github.com/CodeWithCharan/Anime-Recommender-Streamlit-App/assets/106027109/7fc498af-aa98-46e6-a76f-494b708e6237
 
 
 ## DATASET
