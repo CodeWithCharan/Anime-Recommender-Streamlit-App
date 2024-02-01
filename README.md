@@ -2,6 +2,10 @@
 
 In this project, I've built an anime recommendation system to individual preferences. Just type your favorite anime in the search box and it will give you a list of anime recommendations based on your preferences like type (TV, OVA, etc), genre (Fantasy, Action, etc) and other features.
 
+## Video Presentation
+<video src="ARS-Video-Presentation.mp4" controls title="Title"></video>
+
+
 ## DATASET
 This dataset is taken from : https://www.kaggle.com/CooperUnion/anime-recommendations-database?select=anime.csv <br/>
 
@@ -38,7 +42,9 @@ This data set contains information on user preference data from 73,516 users on 
     ```
     pip install -r requirements.txt
     ```
-3. Run the Streamlit app:
+3. Train the model or Download it from: [Google Drive](https://drive.google.com/drive/folders/1Ab_E46FOMCBktotQgeHsUJ5IfIdW27VP?usp=sharing)
+
+4. Run the Streamlit app:
     ```
     streamlit run app.py
     ```
