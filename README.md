@@ -2,6 +2,8 @@
 
 In this project, I've built an anime recommendation system to individual preferences. Just type your favorite anime in the search box and it will give you a list of anime recommendations based on your preferences like type (TV, OVA, etc), genre (Fantasy, Action, etc) and other features.
 
+To achieve this, I performed various tasks, including Data cleaning, Feature engineering, Exploratory Data Analysis (EDA), Data preprocessing, Collaborative filtering, Content-based filtering and Model development.
+
 ## Video Presentation
 https://github.com/CodeWithCharan/Anime-Recommender-Streamlit-App/assets/106027109/7fc498af-aa98-46e6-a76f-494b708e6237
 
@@ -37,14 +39,18 @@ This data set contains information on user preference data from 73,516 users on 
    ```
    git clone https://github.com/CodeWithCharan/Anime-Recommender-Streamlit-App.git
    ```
-2. Install the required dependencies:
+
+2. Create a virtual environment (optional): [Virtual Environment Set Up](https://github.com/CodeWithCharan/virtual-env-setup)
+
+3. Install the required dependencies:
 
     ```
     pip install -r requirements.txt
     ```
-3. Train the model or Download it from: [Google Drive](https://drive.google.com/drive/folders/1Ab_E46FOMCBktotQgeHsUJ5IfIdW27VP?usp=sharing)
 
-4. Run the Streamlit app:
+4. Train the model or Download it from: [Google Drive](https://drive.google.com/drive/folders/1Ab_E46FOMCBktotQgeHsUJ5IfIdW27VP?usp=sharing)
+
+5. Run the Streamlit app:
     ```
     streamlit run app.py
     ```
